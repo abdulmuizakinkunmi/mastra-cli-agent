@@ -1,0 +1,9 @@
+Company Internal Information
+
+The technical support team operates from Monday to Friday.
+Support hours are 9:00 AM to 5:00 PM WAT.
+
+For urgent technical issues, employees should contact the
+engineering support team through the internal support channel.
+
+The project manager is responsible for approving production deployments.
