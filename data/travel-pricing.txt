@@ -1,0 +1,24 @@
+Internal Travel Pricing Guide
+
+Flight Pricing
+
+Lagos to Nairobi:
+Typical economy fare: USD 450.
+Prices are estimates and may vary depending on airline, booking time,
+travel date, and availability.
+
+Hotel Pricing
+
+Nairobi:
+Typical hotel rate: USD 120 per night.
+A standard 3-night stay therefore costs approximately USD 360.
+
+Example Logistics Calculation
+
+A typical Lagos to Nairobi flight plus a 3-night Nairobi hotel stay:
+Flight: USD 450
+Hotel: USD 360
+Estimated total: USD 810.
+
+These figures are internal estimates for planning purposes only and should
+not be treated as live booking prices.
