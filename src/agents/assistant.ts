@@ -1,5 +1,4 @@
 import { Agent } from "@mastra/core/agent";
-import { createOpenRouter } from "@openrouter/ai-sdk-provider";
 import { config } from "dotenv";
 
 import { memory } from "../mastra/memory.js";
@@ -11,20 +10,11 @@ import { ragSearchTool } from "../tools/rag.js";
 
 config();
 
-const apiKey = process.env.OPENROUTER_API_KEY;
 const modelName = process.env.MODEL_NAME;
-
-if (!apiKey) {
-  throw new Error("OPENROUTER_API_KEY is not configured.");
-}
 
 if (!modelName) {
   throw new Error("MODEL_NAME is not configured.");
 }
-
-const openrouter = createOpenRouter({
-  apiKey,
-});
 
 export const assistantAgent = new Agent({
   id: "cli-assistant",
@@ -60,7 +50,7 @@ Do not invent internal information.
 Be concise, accurate, and transparent about uncertainty.
 `,
 
-  model: openrouter(modelName),
+ model: `openrouter/${modelName}`,
 
   memory,
 
